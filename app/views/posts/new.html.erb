@@ -1,0 +1,7 @@
+<%= form_for @post, url:posts_path do |f| %>
+  USrname: <%= f.text_field :username %><br />
+  Title : <%= f.text_field :title %><br />
+  Body: <%= f.text_area :body %><br />
+ 
+  <%= f.submit %>
+<% end %>
